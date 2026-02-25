@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      4.1
 // @description  快速切换 imini.com 账号 - 支持单删/批量删/全删与低饱和界面
-// @author       You
+// @author       lcq
 // @match        https://imini.com/*
 // @match        https://*.imini.com/*
 // @grant        GM_setValue
@@ -1397,3 +1397,4 @@
     // 延迟初始化
     setTimeout(createUI, 800);
 })();
+
